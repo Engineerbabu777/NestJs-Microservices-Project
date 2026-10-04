@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+*/node_modules/
+
+# Production & Build outputs
+dist/
+*/dist/
+build/
+*/build/
+
+# TypeScript cache
+*.tsbuildinfo
+*/*.tsbuildinfo
+
+# Environment variables
+.env
+.env.*
+*/.env
+*/.env.*
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
